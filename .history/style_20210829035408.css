@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-image: url('pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 100px;
+}
+
+img {
+    width: 100%;
+}
+
+.card {
+    flex: 50%;
+    max-width: 500px;
+}
+
+.content {
+    text-align: center;
+    background-color: white;
+}
+
+h2,
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text {
+    padding: 55px;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+p {
+    color: grey;
+}
+
+.musicCard {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 70%;
+    margin: auto;
+    background-color: rgb(248, 248, 247);
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.link {
+    flex: 10%;
+    margin-left: 100px;
+}
+
+.musicIcon {
+    flex: 80%;
+    max-width: 50px;
+    margin-right: 20px;
+}
+
+.price {
+    flex: 10%;
+    text-align: right;
+}
+
+button {
+    width: 74%;
+    margin: auto;
+    padd
+}

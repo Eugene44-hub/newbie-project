@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-image: url('pattern-background-desktop.svg');
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 100px;
+}
+
+h2,
+p {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}

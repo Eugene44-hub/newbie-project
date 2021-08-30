@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-image: url('pattern-background-desktop.svg');
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(217, 229, 235);
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.card {
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.image {}
+
+.content {
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    max-width: 490px;
+    box-shadow: 0px 13px 20px rgb(187, 186, 186), -1px -0px 20px rgb(226, 224, 224);
+}
+
+h2,
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text {
+    padding: 90px;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+p {
+    color: grey;
+}
+
+.musicCard {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 70%;
+    margin: auto;
+    background-color: rgb(248, 248, 247);
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.link {
+    flex: 10%;
+    margin-left: 100px;
+}
+
+.musicIcon {
+    flex: 80%;
+    max-width: 50px;
+    margin-right: 20px;
+}
+
+.price {
+    flex: 10%;
+    text-align: right;
+}
+
+button {
+    width: 74%;
+    padding: 20px;
+    border: none;
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#cancel {
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+#proceed {
+    background-color: rgb(3, 7, 243);
+    color: white;
+    box-shadow: 0px 10px 20px rgb(175, 173, 173);
+}

@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-image: url('pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+}
+
+.card-container {
+    display: flex;
+    jusr
+}
